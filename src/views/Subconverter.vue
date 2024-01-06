@@ -210,7 +210,13 @@ export default {
           ClashR: "clashr",
           Surge2: "surge&ver=2",
         },
-        backendOptions: [{ value: "http://127.0.0.1:25500/sub?" }],
+        backendOptions: [
+          { value: "http://127.0.0.1:25500/sub?" },
+          { value: "https://sub0.myql.buzz/sub?" },
+          { value: "https://subm.myql.buzz/sub?" },
+          { value: "https://zerodeity-sub.hf.space/sub?" },
+          { value: "https://zerodeity-sub-meta.hf.space/sub?" },
+        ],
         remoteConfig: [
           {
             label: "universal",
